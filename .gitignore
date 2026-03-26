@@ -1,6 +1,16 @@
+# Python cache
 __pycache__/
 *.pyc
+
+# Database
 *.db
 *.sqlite3
+
+# Videos / Large Files
 *.mp4
+
+# Environment variables
 .env
+
+# VS Code settings
+.vscode/
