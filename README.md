@@ -74,7 +74,7 @@ uvicorn main:app --reload
 # Access Swagger UI
 http://127.0.0.1:8000/docs
 ☁️ Cloud Deployment (Render.com)
-Connect GitHub repo to Render
+Connect your GitHub repo to Render
 Create New Web Service → Python 3
 Build Command:
 pip install -r requirements.txt
@@ -91,3 +91,6 @@ Add unit & integration tests
 👩‍💻 Author
 
 Wajiha Arshad – Lead Developer & Founder, The Honeybee Code Studio
+
+GitHub: [Your GitHub URL]
+Portfolio: [Optional Portfolio Link]
