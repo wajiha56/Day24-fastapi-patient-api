@@ -73,24 +73,32 @@ uvicorn main:app --reload
 
 # Access Swagger UI
 http://127.0.0.1:8000/docs
+
+
 ☁️ Cloud Deployment (Render.com)
 Connect your GitHub repo to Render
 Create New Web Service → Python 3
+
 Build Command:
 pip install -r requirements.txt
 Start Command:
 uvicorn main:app --host 0.0.0.0 --port 10000
-Share the live URL with clients
+
+
 🛠 Tech Stack
 <div> <img src="https://img.shields.io/badge/Python-3.14-blue?logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-0.114.0-green?logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-3.41.2-orange?logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/Render-Cloud-purple?logo=render&logoColor=white"/> <img src="https://img.shields.io/badge/Pydantic-2.12.5-red?logo=pydantic&logoColor=white"/> </div>
+
+
+
 🔮 Next Steps
 Add Update & Delete patient endpoints
 JWT Authentication for security
 Switch to PostgreSQL/MySQL for production
 Add unit & integration tests
+
+
 👩‍💻 Author
 
 Wajiha Arshad – Lead Developer & Founder, The Honeybee Code Studio
 
-GitHub: [Your GitHub URL]
-Portfolio: [Optional Portfolio Link]
+
