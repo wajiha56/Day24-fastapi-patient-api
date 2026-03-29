@@ -1,24 +1,18 @@
-🌟 Day 24 – FastAPI Patient API
-<div align="center"> <a href="https://day24-fastapi-patient-api.onrender.com"><img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge"/></a> <a href="https://day24-fastapi-patient-api.onrender.com/docs"><img src="https://img.shields.io/badge/Swagger-UI-blue?style=for-the-badge"/></a> </div>
-📌 Project Overview
+## ⚡ Live Demo
 
-FastAPI backend for managing patient data with SQLite storage, fully live-deployed on Render.
+| Endpoint       | URL         |
+|----------------|------------|
+| 🌐 Live API     | [Click Here](https://day24-fastapi-patient-api.onrender.com) |
+| 📄 Swagger Docs | [Click Here](https://day24-fastapi-patient-api.onrender.com/docs) |
 
-Key Features:
+---
 
-Add new patients & retrieve patient list
-Pydantic for request validation
-Fully documented API via Swagger UI
-Cloud deployment for live client demos
-⚡ Live Demo
-Endpoint	URL
-🌐 Live API	Click Here
+## 🚀 API Endpoints
 
-📄 Swagger Docs	Click Here
-🚀 API Endpoints
-1️⃣ Add Patient
-POST /add_patient/
-Request Body:
+### 1️⃣ Add Patient
+- **POST** `/add_patient/`  
+- **Request Body:**
+```json
 {
   "name": "Ali",
   "fee": 500
@@ -41,6 +35,7 @@ cd Day24-fastapi-patient-api
 
 # Virtual environment (optional)
 python -m venv venv
+
 # Activate
 # Windows
 venv\Scripts\activate
@@ -73,3 +68,5 @@ Add unit & integration tests
 👩‍💻 Author
 
 Wajiha Arshad – Lead Developer & Founder, The Honeybee Code Studio
+
+GitHub: [Your GitHub URL]
